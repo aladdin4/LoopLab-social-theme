@@ -4,14 +4,14 @@ body {
 }
 
 .navbar {
-  border-bottom: 3px solid #008fd625;
+  border-bottom: 3px solid #008fd6;
 
   opacity: 0.7;
 }
 
 .icon-lg {
   border-radius: 5px;
-  font-size: 250%;
+  font-size: 150%;
   color: #008ed6;
   --ionicon-stroke-width: 100px;
 }
@@ -30,4 +30,25 @@ body {
 
 .card {
   opacity: 0.8;
+}
+
+/* =================================================== */
+/* =========Explore Section=========== */
+/* =================================================== */
+
+.icon-lg-dark {
+  background: #0c0b0b;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 150%;
+  --ionicon-stroke-width: 100px;
+}
+
+#explore,
+#create,
+#share,
+#footer {
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
